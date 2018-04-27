@@ -40,6 +40,17 @@ namespace PsychStudies
             return $"{Name} ({people} {year})";
         }
 
+        public string ToDescription()
+        {
+            string people = "";
+            for (int i = 0; i < researchers.Length; i++)
+            {
+                people += $"{researchers[i]}, ";
+            }
+
+            return $"{Name}\nConducted by: {people.TrimEnd(',',' ')} in {year}\n{description}"; 
+        }
+
         //can only GET data from fields once study has been created 
         public string Name { get { return name; } }
         public string[] Researchers { get { return researchers; } }

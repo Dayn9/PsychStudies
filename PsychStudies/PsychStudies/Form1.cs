@@ -36,7 +36,13 @@ namespace PsychStudies
                 tempResearchers[i] = str;
                 i++;
             }
-            contentManager.AddStudy(new Study(studyNameTextBox.Text, tempResearchers, short.Parse(yearTextBox.Text), studyNameTextBox.Text));
+            //add new line comments to description
+            string linedDesc = "";
+            for(int j= 0; j<descAddTextBox.Lines.Length; j++)
+            {
+                linedDesc += $"{descAddTextBox.Lines[j]}\n";
+            }
+            contentManager.AddStudy(new Study(studyNameTextBox.Text, tempResearchers, short.Parse(yearTextBox.Text), linedDesc));
         }
 
         /// <summary>
@@ -65,6 +71,18 @@ namespace PsychStudies
         {
             //------------------------------ << Temp code for testing output
             contentManager.Output();
+        }
+
+        private void saveButton_Click(object sender, EventArgs e)
+        {
+            contentManager.Save("studies");
+        }
+
+        //When a study is clicked Write it's description 
+        private void studiesList_MouseClick(object sender, MouseEventArgs e)
+        {
+            string studyName = studiesList.SelectedItem.ToString().Split('(')[0].TrimEnd(' ');
+            contentManager.WriteDescription(studyName);
         }
     }
 }

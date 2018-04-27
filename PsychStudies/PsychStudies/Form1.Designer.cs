@@ -58,6 +58,7 @@
             this.studiesList.Name = "studiesList";
             this.studiesList.Size = new System.Drawing.Size(302, 290);
             this.studiesList.TabIndex = 0;
+            this.studiesList.MouseClick += new System.Windows.Forms.MouseEventHandler(this.studiesList_MouseClick);
             // 
             // addNewButton
             // 
@@ -233,6 +234,7 @@
             this.saveButton.TabIndex = 20;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // Form1
             // 

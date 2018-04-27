@@ -8,3 +8,13 @@ Z:\IGMProfile\Desktop\PsychStudies\PsychStudies\obj\Debug\PsychStudies.csproj.Ge
 Z:\IGMProfile\Desktop\PsychStudies\PsychStudies\obj\Debug\PsychStudies.csproj.CoreCompileInputs.cache
 Z:\IGMProfile\Desktop\PsychStudies\PsychStudies\obj\Debug\PsychStudies.exe
 Z:\IGMProfile\Desktop\PsychStudies\PsychStudies\obj\Debug\PsychStudies.pdb
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\bin\Debug\PsychStudies.exe.config
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\bin\Debug\PsychStudies.exe
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\bin\Debug\PsychStudies.pdb
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.csprojResolveAssemblyReference.cache
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.Form1.resources
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.Properties.Resources.resources
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.csproj.GenerateResource.Cache
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.csproj.CoreCompileInputs.cache
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.exe
+Z:\IGMProfile\Desktop\repos\PsychStudies\PsychStudies\PsychStudies\obj\Debug\PsychStudies.pdb
